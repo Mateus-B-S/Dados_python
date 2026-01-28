@@ -1,49 +1,21 @@
 import pandas as pd
 
+from nomes import novos_nomes, senioridade, contrato, tamanho_empresa
+
 dataFrame = pd.read_csv("https://raw.githubusercontent.com/guilhermeonrails/data-jobs/refs/heads/main/salaries.csv")
 
 print("Tabela de salários:  \n")
 
 
-novos_nomes = {
-    'work_year': 'ano',
-    'experience_level': 'senioridade',
-    'employment_type': 'contrato',
-    'job_title': 'cargo',
-    'salary': 'salario',
-    'salary_currency': 'moeda',
-    'salary_in_usd': 'usd',
-    'employee_residence': 'residencia',
-    'remote_ratio': 'remoto',
-    'company_location': 'empresa',
-    'company_size': 'tamanho_empresa'
-}
 
 dataFrame.rename(columns=novos_nomes, inplace=True)
-# modificando alguns valores
-senioridade = {
-    'SE': 'senior',
-    'MI': 'pleno',
-    'EN': 'junior',
-    'EX': 'executivo'
-}
 
 dataFrame["senioridade"] = dataFrame["senioridade"].replace(senioridade)
 
-contrato = {
-    'FT': 'integral',
-    'PT': 'parcial',
-    'CT': 'contrato',
-    'FL': 'freelancer'
-}
 
 dataFrame['contrato'] = dataFrame['contrato'].replace(contrato)
 
-tamanho_empresa = {
-    'L': 'grande',
-    'S': 'pequena',
-    'M':	'media'
-}
+
 
 dataFrame['tamanho_empresa'] = dataFrame['tamanho_empresa'].replace(tamanho_empresa)
 
