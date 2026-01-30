@@ -7,7 +7,7 @@ novos_nomes = {
     'salary_currency': 'moeda',
     'salary_in_usd': 'usd',
     'employee_residence': 'residencia',
-    'remote_ratio': 'remoto',
+    'remote_ratio': 'indice_remoto',
     'company_location': 'empresa',
     'company_size': 'tamanho_empresa'
 }
@@ -34,6 +34,10 @@ tamanho_empresa = {
     'M':	'media'
 }
 
-
+indice_remoto = {
+    0: 'presencial',
+    50: 'híbrido',
+    100: 'remoto'
+}
 
 
