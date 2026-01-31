@@ -1,5 +1,5 @@
 import pandas as pd
-from nomes import novos_nomes, senioridade, indice_remoto
+from Ferraments_e_extras.nomes import novos_nomes, senioridade, indice_remoto
 import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px

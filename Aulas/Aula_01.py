@@ -1,6 +1,6 @@
 import pandas as pd
 
-from nomes import novos_nomes, senioridade, contrato, tamanho_empresa
+from Ferraments_e_extras.nomes import novos_nomes, senioridade, contrato, tamanho_empresa
 
 dataFrame = pd.read_csv("https://raw.githubusercontent.com/guilhermeonrails/data-jobs/refs/heads/main/salaries.csv")
 

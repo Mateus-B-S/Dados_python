@@ -40,4 +40,33 @@ indice_remoto = {
     100: 'remoto'
 }
 
+moedas = {
+    'AUD': 'Autrália',
+    'BRL': 'Brasil',
+    'CAD': 'Canadá',
+    'CLP': 'Chile',
+    'CHF': 'Suíla',
+    'CNY': 'China',
+    'CZK': 'Theckia',
+    'DKK': 'Dinamarca',
+    'EUR': 'Europa',
+    'GBP': 'grã bretanha',
+    'HUF': 'Hungria',
+    'HKD': 'Hong Kong',
+    'INR': 'India',
+    'ILS': 'Israel',
+    'JPY': 'Japão',
+    'MXN': 'México',
+    'NOK': 'Noruega',
+    'NZD': 'Nova Zelândia',
+    'PHP': 'Filipinas',
+    'PLN': 'Polônia',
+    'SEK': 'Suécia',
+    'SGD': 'Singapura',
+    'TWD': 'Taiwan',
+    'THB': 'Tailândia',
+    'TRY': 'Turquia',
+    'USD': 'Estados Unidos',
+    'ZAR': 'África do Sul'
+}
 

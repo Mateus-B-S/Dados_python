@@ -1,6 +1,6 @@
 import pandas as pd
 
-from nomes import novos_nomes
+from Ferraments_e_extras.nomes import novos_nomes
 
 
 
